@@ -1,0 +1,73 @@
+@import url("color.css");
+
+.header {
+    width: 100%;
+    height: 130px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav {
+        .nav__links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-weight: 600;
+
+            .nav__item {
+                .nav__link {
+                    color: #fff;
+                }
+
+                .nav__link:hover {
+                    color: #DFA866;
+                    text-decoration: underline;
+                    text-underline-offset: 6px;
+                }
+            }
+        }
+    }
+
+    .log-in {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-weight: 600;
+
+        .icon {
+            width: 25px;
+            height: 25px;
+            border: 1px solid #DFA866;
+            border-radius: 50%;
+
+            .icon__wrapper{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width:100%;
+                height: 100%;
+            }
+        }
+
+        .icon:hover {
+            border: 1px solid #fff;
+        }
+
+        .log-in__btn {
+            width: 86px;
+            height: 25px;
+            background-color: #DFA866;
+            color: #000;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .log-in__btn:hover {
+            background-color: #fff;
+        }
+    }
+}

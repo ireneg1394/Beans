@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Martel Sans";
+  src: url('../fonts/Martel_Sans/MartelSans-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Martel Sans";
+  src: url('../fonts/Martel_Sans/MartelSans-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Martel Sans";
+  src: url('../fonts/Martel_Sans/MartelSans-Bold.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+

@@ -325,6 +325,10 @@
                 border-radius: 20px;
                 outline: none;
             }
+
+            .form-btn:hover {
+                background-color: #fff;
+            }
         }
 
      }

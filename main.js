@@ -3,4 +3,3 @@ document.querySelectorAll('.explore-list').forEach(item => {
     item.classList.toggle('open');
   });
 });
-const test = 0;

@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@a1rth/css-normalize/normalize.css" />
     <link rel="stylesheet" href="./styles/index.css">
-    <title>Catalogue</title>
+    <title>Contacts</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <a href="../../index.html">
-                <img class="logo-img" src="../../images/svg/logo_beans_65x30.svg" width="65" height="30" alt="Logo company"/>
+                <img class="logo-img" src="../../images/svg/logo_beans_65x30.svg" width="65" height="30" alt="Logo company">
             </a>
             <nav class="nav">
                 <ul class="nav__links">
                     <li class="nav__item">
-                        <a href="../about/index.html" class="nav__link">About</a>
+                        <a href="./index.html" class="nav__link">About</a>
                     </li>
                     <li class="nav__item">
-                        <a href="./index.html" class="nav__link">Catalogue</a>
+                        <a href="../catalogue/index.html" class="nav__link">Catalogue</a>
                     </li>
                     <li class="nav__item">
                         <a href="../delivery/index.html" class="nav__link">Delivery</a>
@@ -55,7 +55,45 @@
             </div>
         </header>
         <main class="main">
-            This is content!
+            <section class="contacts">
+                <h1 class="title">Contact us</h1>
+                <div class="contact-info">
+                    <div class="contact-data">
+                        <h6 class="contact-title">Beans Coffee Shop</h6>
+                        <ul class="data">
+                            <li class="data-item">
+                                <p class="title">Adress</p>
+                                <p class="text">Beans Online Coffee Shop 123 Coffee Lane Brew City, CA 90210</p>
+                            </li>
+                            <li class="data-item">
+                                <p class="title">Phone</p>
+                                <p class="text">(800) 555-BEAN</p>
+                            </li>
+                            <li class="data-item">
+                                <p class="title">Email</p>
+                                <p class="text">info@beanscoffee.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="network">
+                        <h6 class="network-title">Follow us</h6>
+                        <div class="network-icon">
+                            <img src="../../images/svg/facebook_20x21.svg" width="20" height="21" alt="Icon-facebook">
+                            <img src="../../images/svg/instagram_20x21.svg" width="20" height="21" alt="Icon-instagram">
+                            <img src="../../images/svg/twiter_20x21.svg" width="20" height="21" alt="Icon-twitter">
+                        </div>
+                    </div>
+                </div>
+                <div class="ask-a-question">
+                    <p class="ask-title">Ask a question</p>
+                    <form class="ask-form">
+                        <input type="text" class="form-input" placeholder="Your name">
+                        <input type="email" class="form-input" placeholder="Your email">
+                        <textarea name="comment" class="text-area" placeholder="Type your question"></textarea>
+                        <button class="form-btn">Submit</button>
+                    </form>
+                </div>
+            </section>
         </main>
         <footer class="footer">
             <div class="footer-info">

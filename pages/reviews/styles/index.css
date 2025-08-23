@@ -1,0 +1,27 @@
+@import url("../../../styles/fonts.css");
+@import url("../../../styles/header.css");
+@import url("../styles/reviews.css");
+@import url("../../../styles/footer.css");
+
+body {
+  font-family: "Martel Sans", sans-serif;
+  background-color: #12091D;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+    width: 85%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    flex: 1;
+    color: #fff;
+}

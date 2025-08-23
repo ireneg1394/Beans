@@ -1,6 +1,7 @@
 @import url("./fonts.css");
 
 .header {
+    position: relative;
     width: 100%;
     height: 130px;
 
@@ -147,11 +148,11 @@
     .menu-list {
         position: absolute;
         top: 0;
-        right: 0;
+        right: 175px;
         height: 100vh;
         width: 250px;
         background: #DFA866;
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -176,7 +177,7 @@
     }
 
     .burger-checkbox:checked ~ .menu-list {
-        transform: translateX(0);
+        display: flex;
     }
 
 }

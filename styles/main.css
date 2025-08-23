@@ -333,3 +333,67 @@
 
      }
 }
+
+@media (max-width: 767px) {
+   .main {
+        .preview {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .preview-info {
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            .title {
+                font-size: 30px;
+
+                .title-icon {
+                    display: none;
+                }
+            }
+
+            .subtitle {
+                text-align: center;
+            }
+        }
+
+        .preview-images {
+            display: none;
+        }
+    }
+        .explore {
+            display: none;
+        }
+
+        .catalogue {
+            .catalogue-header {
+                flex-wrap: wrap;
+            }
+            .catalogue-content {
+                justify-content: center;
+            }
+        }
+
+        .customers {
+            .catalogue-header {
+                flex-wrap: wrap;
+            }
+
+            .customers-content {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .subscribe {
+            .form {
+                flex-wrap: wrap;
+            }
+        }
+   }
+    
+}

@@ -77,3 +77,11 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .location {
+        .location-content {
+            flex-direction: column;
+        }
+    }
+}

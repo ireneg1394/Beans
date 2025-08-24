@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 4% 0;
+    gap: 10px;
 
     .footer-info {
         display: flex;
@@ -35,20 +36,20 @@
             color: #fff;
         }
 
-        .menu {
+        .menu-info {
             .menu__item {
                 
-                .menu__link {
-                    font-size: 14px;
-                    font-weight: 600;
-                    color: #fff;
-                    text-decoration: none;
-                }
-
-                .menu__link:hover {
+                .menu-info__link:hover {
                     color: #DFA866;
                 }
             }
         }
     }
+}
+
+.menu-info__link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
 }

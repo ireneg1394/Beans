@@ -72,3 +72,17 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .reviews {
+        .content {
+            .content__item {
+                flex-direction: column;
+
+                .quotation {
+                    display: none;
+                }
+            }
+        }
+    }
+}

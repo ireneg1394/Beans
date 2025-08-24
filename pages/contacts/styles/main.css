@@ -14,6 +14,7 @@
 
         .contact-info {
             display: flex;
+            gap: 20px;
             
             .contact-data {
                 width: 50%;
@@ -105,6 +106,25 @@
                     height: 35px;
                     background-color: #DFA866;
                     border-radius: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        .contacts {
+            .contact-info {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .ask-a-question {
+                .ask-form {
+                    width: 100%;
+                    padding: 20px 40px;
                 }
             }
         }

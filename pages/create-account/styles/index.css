@@ -16,7 +16,7 @@ body {
 }
 
 .form-login {
-    min-width: 460px;
+    width: 460px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -60,5 +60,12 @@ body {
 
     .close-btn:hover {
         color: #DFA866;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-login {
+        width: 100%;
+        padding: 0 20px;
     }
 }

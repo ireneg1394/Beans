@@ -179,6 +179,7 @@
         .catalogue-content {
             display: flex;
             flex-wrap: wrap;
+            align-self: center;
             max-width: 920px;
             border-bottom-left-radius: 50px;
             overflow: hidden;
